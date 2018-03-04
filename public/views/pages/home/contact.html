@@ -1,0 +1,72 @@
+<public-top></public-top>
+<!-- -->
+<div class="contacto">
+    <div class="container mv">
+        <div class="row">
+            <div class="colum mv-txt">
+                <h4 class="row" style="color: #000; padding-top: 30px; padding-bottom: 20px;">Sucursales</h4>
+                <div class="row">
+                    <i class="fa fa-map-marker" style="margin-top: -5px;"></i>
+                    <h5 style="color: #000">Valencia</h5>
+                </div>
+                <p class="row"><span style="color: #000;"> Avenida 107, Centro Comercial La Viña Siglo XXI, Piso 3, oficina 7a. <br></span>Valencia, Venezuela</p>
+                <p class="row">Lunes a Viernes 8:30 AM a 5:00 PM <br>Sábado y Domingo Cerrado</p>
+
+                <div class="row">
+                    <i class="fa fa-map-marker" style="margin-top: -5px;"></i>
+                    <h5 style="color: #000">Barquisimeto</h5>
+                </div>
+                <p class="row">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+
+            </div>
+
+            <div id="vertical-bar2"></div>
+
+            <div class="colum mv-txt">
+                <div style="padding-top: 100px;">
+                    <img style="width: 30px; margin-bottom: 5px" src="public/images/icons/svg/phone.svg" alt="GB"> +58 416 641 7814 / +58 241 821 2202
+                    <br>
+                </div>
+                <div class="" style="margin-top: 20px;">
+                    <img style="width: 30px; margin-bottom: 5px" src="public/images/icons/svg/mail2.svg" alt="GB"> operaciones@giolibmateriales.com
+                    <br>
+                </div>
+
+                <div class="social2">
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<article class="form-contacto">
+    <div class="title-form">
+        Contáctanos
+    </div>
+    <form name="contactoForm" role="form" class="sign-box2">
+        <div class="form-group" ng-class="{'has-error':contactoForm.nombre.$dirty, 'has-success':contactoForm.nombre.$valid}">
+            <p>Nombre</p>
+            <input type="text" class="form-control" name="nombre" ng-model="Contacto.nombre" />
+        </div>
+        <div class="form-group" ng-class="{ 'has-error':contactoForm.correo.$dirty, 'has-success':contactoForm.correo.$valid}" />
+        <p>Correo electrónico</p>
+        <input type="text" class="form-control" name="correo" ng-model="Contacto.correo" />
+        </div>
+        <div class="form-group" ng-class="{'has-error':contactoForm.telefono.$dirty, 'has-success':contactoForm.telefono.$valid}" />
+        <p>Número de teléfono</p>
+        <input type="text" class="form-control" name="telefono" ng-model="Contacto.telefono" />
+        </div>
+        <div class="form-group" ng-class="{'has-error':contactoForm.mensaje.$dirty, 'has-success':contactoForm.mensaje.$valid}">
+            <p>Mensaje</p>
+            <textarea class="form-control" rows="4" name="mensaje" ng-model="Contacto.mensaje"></textarea>
+        </div>
+        <a class="btn btn-registro" href="#" role="button">Enviar</a>
+    </form>
+</article>
+</div>
+<!-- -->
+<public-footer></public-footer>

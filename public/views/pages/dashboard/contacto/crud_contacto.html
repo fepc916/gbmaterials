@@ -1,0 +1,62 @@
+<dashboard-top></dashboard-top>
+<!-- -->
+<div class="container-fluid">
+    <section class="row mt4 justify-content-md-center">
+       <form> 
+        <article class="col-6">
+            <div class="form-group ttc" ng-class="{'has-error':usuarioForm.email.$invalid, 'has-success':usuarioForm.email.$dirty}">
+                <label class="b ttu"><i class="fa fa-user"></i> nombre</label>
+                <input type="text" class="form-control input-lg" />
+            </div>
+            <div class="form-group ttc">
+                <label class="b ttu"><i class="fa fa-envelope"></i> correo</label>
+                <input type="text" class="form-control input-lg" placeholder="detalle@correo.com" />
+            </div>
+            <div class="form-group ttc">
+                <label class="b ttu"><i class="fa fa-phone"></i> teléfono</label>
+                <input type="text" class="form-control input-lg" />
+            </div>
+            <div class="form-group ttc">
+                <label class="b ttu"><i class="fa fa-pencil"></i> mensaje</label>
+                <textarea class="form-control input-lg"></textarea>
+            </div>
+            <div class="form-group ttc">
+                <button class="btn btn-sm btn-success"><i class="fa fa-search"></i>  <span class="ttu b">buscar</span></button>
+                <button class="btn btn-sm btn-info b"><i class="fa fa-plus"></i> <span class="ttu c">crear</span></button>
+                <button class="btn btn-sm btn-warning b"><i class="fa fa-eraser"></i> <span class="ttu c">borrar</span></button>
+                <button class="btn btn-sm btn-danger b"><i class="fa fa-lock"></i> <span class="ttu c">bloquear</span></button>
+                <button class="btn btn-sm btn-default b"><i class="fa fa-send"></i> <span class="ttu c">enviar clave</span></button>
+            </div>
+        </article>
+       </form> 
+    </section>
+    <hr/>
+    <section class="row justify-content-md-center">
+        <article class="col-8">
+            <table class="table table-striped">
+                <thead class="b ttu">
+                    <th>
+                        <td>
+                            nombre
+                        </td>
+                        <td>
+                            correo
+                        </td>
+                        <td>
+                            telf
+                        </td>
+                        <td>
+                            mensaje
+                        </td>
+                        <td>
+                            estatus
+                        </td>
+                        <td>
+                            acciones
+                        </td>
+                    </th>
+                </thead>
+            </table>
+        </article>
+    </section>
+</div>

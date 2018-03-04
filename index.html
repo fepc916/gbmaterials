@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/stylesheets/build/lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" href="public/stylesheets/build/main.css">
+    <!-- Tachyons -->
+    <link rel="stylesheet" href="node_modules/tachyons/css/tachyons.min.css">
+</head>
+
+<body>
+    <div>
+        <div ui-view="home"></div>
+        <div ui-view="about"></div>
+        <div ui-view="contact"></div>
+        <div ui-view="services"></div>
+        <div ui-view="login"></div>
+        <!---->
+        <div ui-view="dashboard"></div>
+        <div ui-view="dash_contact"></div>
+        <!-- -->
+        <div ui-view="test1"></div>
+    </div>
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="public/javascripts/plugins/tether.min.js "></script>
+    <script src="public/javascripts/plugins/jquery-3.2.1.min.js "></script>
+    <script src="public/javascripts/plugins/bootstrap.min.js "></script>
+    <!-- Angular -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="node_modules/angular-jwt/dist/angular-jwt.min.js"></script>
+    <!-- App -->
+    <script src="public/javascripts/app.js"></script>
+</body>
+
+</html>

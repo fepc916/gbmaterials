@@ -1,0 +1,38 @@
+#############################
+LOGIN
+btn (entrar) #fdb708 hover #eaa908
+btn (registrarme) #000000 hover #1c1c1c
+
+############################
+HOME
+iconos header #fdb708 hover #ffffff
+btn (ver producto) #fdb708 hover #eaa908
+btn (ver catalogo) #000000 hover btn #fdb708 y texto #000000
+btn (banner solicitar cita) #000000 hover btn #fdb708 hover texto #000000
+
+############################
+TIENDA
+
+Ficha Producto No clientes:
+btn (comprar) #fdb708 hover btn #000000 hover texto #fdb708
+btn (añadir a la lista) #000000 hover btn #fdb708 hover texto #000000
+
+Ficha producto Clientes:
+btn (adquirir) #fdb708 hover btn #000000 hover texto #fdb708
+precio producto #e97202
+
+############################
+SERVICIOS
+btn (solicitar cita) #fdb708 hover #eaa908
+ficha (asesoria comercial) #0b0b8b
+ficha (servicio técnico) #f6f6f6
+
+###########################
+CONTACTO
+iconos #000000
+btn (enviar) #000000 hover btn #fdb708 hover texto #000000
+
+###########################
+BLOG
+
+btn (leer más) #fdb708 hover btn #000000 hover texto #fdb708

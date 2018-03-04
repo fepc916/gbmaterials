@@ -1,0 +1,641 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../../fonts/roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+body {
+	font-size: 0.9rem;
+	font-family: Roboto;
+}
+.navtop {
+	background-color: #000000;
+	padding: 40px 0px;
+	margin-top: -40px;
+}
+.nav-item {
+	padding: 0px 10px;
+}
+.navbar-toggler{ background-color: white !important; }
+
+/*Color de las letras del menú*/
+.navbar ul.navbar-nav li.nav-item a.nav-link{
+  color: white;
+}
+.menu2 .navbar ul.navbar-nav li.nav-item a.nav-link{
+  color: #878584;
+}
+.carousel-indicators li {
+	max-width: 8px;
+	height: 8px;
+}
+.iconos-menu {
+	color: yellow;
+	font-size: 1.5em;
+}
+.banner {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+}
+.fabrica {
+	height: 286px;
+    background-image: url("../../images/gallery/png/general/fabrica_yatu_1.png");
+}
+.play {
+	text-align: center;
+	padding-top: 143px;
+}
+.logos {
+	text-align: center;
+}
+.btn-cita {
+	color: yellow;
+	background-color: #000000;
+	border-color: #000000;
+	margin-left: 30px;
+	font-weight: bold;
+}
+.btn-cita:hover {
+	color: yellow;
+}
+.citas p {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #000000;
+}
+.footer {
+	width: 80%;
+	padding-top: 30px;
+	padding-bottom: 20px; 
+	border-bottom-color: white;
+	border-bottom-width: 5px;
+}
+.items, .social a {
+	padding-bottom: 10px;
+	color: #878584;
+}
+.social {
+	padding-bottom: 10px;
+}
+
+.fa {
+	font-size: 1.5rem;
+	padding-right: 5px;
+}
+.menu2{
+	width: 90%;
+	border-top-color: white;
+	border-top-width: 2px;
+	border-top-style: solid;
+	background-color: #000000;
+ }
+ .copyright {
+ 	padding-bottom: 20px;
+	color: #878584;
+	margin-left: 20px;
+	
+ } 
+ .productos {
+ 	width: 80%;
+ 	padding: 20px 0 20px 0;
+ }
+ .card {
+ 	border: none;
+ }
+ .card:hover{
+ 	border:1px solid rgba(0,0,0,.125);
+ }
+.btn-producto {
+	color: #000000;
+	background-color: #FFDB58;
+	border-color: #FFDB58;
+}
+.btn-producto:hover {
+	color: #000000;
+}
+.title {
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+}
+
+.btn-catalogo {
+	color: #FFDB58;
+	background-color: #000000;
+	border-color: #000000;
+
+}
+.btn-catalogo:hover {
+	color:  #FFDB58;
+}
+.login-back{
+	height: 700px;
+	background-color: rgba(0,0,0,.125);
+}
+.img-login {
+	height: 500px;
+    background-image: url("../../images/banners/general/imagen_login.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+.container-login {
+	width: 80%;
+	text-align: center;
+	padding-top: 100px;
+}
+.form-login {
+	background-color: #fff;
+	padding-top: 40px;
+	border-radius: 10px 0px 0px 10px;
+}
+.input-group-addon {
+	background-color: #fff;
+	border: none;
+	padding: 8px;
+}
+.fa-lock {
+	font-size: 1.3rem;
+	color: rgba(0,0,0,0.7);
+}
+.input-group-addon .fa-user-o {
+	font-size: 1.2rem;
+	color: rgba(0,0,0,0.7);
+}
+.btn-login {
+	color: #fff;
+	border-radius: 20px;
+	width: 80%;
+}
+.input-group .form-control:not(:first-child) {
+	border-radius: 0.25rem;
+}
+.form-control {
+	border-color: rgba(0,0,0,0.7);
+}
+.banner2 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mv {
+	width: 85%;
+}
+.mv-txt {
+	padding: 5px 30px 0px 30px;
+}
+.colum {
+	width: 49%;
+}
+#vertical-bar {
+        border-left: 2px solid #000;
+        width:1px;
+        height:100px;
+        position: absolute;
+	top: 30%;
+	left: 50%;
+    }
+.mv-txt img {
+		display:none;
+	}
+.title-v {
+	color: #000000;
+}
+.number-v {
+	font-weight: bold;
+	border-bottom:3px solid rgb(0,0,0);
+	font-size: 1.2rem;
+	margin-right: 10px;
+}
+.card-v:hover {
+	border: none;
+}
+.social2 {
+	padding-top: 20px;
+}
+.social2 a {
+	color: #000;
+}
+.fa-map-marker {
+	color: #000;
+}
+#vertical-bar2 {
+        border-left: 2px solid #000;
+        width:1px;
+        height:200px;
+        position: absolute;
+	top: 30%;
+	left: 50%;
+    }
+.contacto {
+	background-color: orange;
+}
+.sign-box2 {
+	position: relative;
+	top: -20%;
+	left: 0%;
+	width: 40%;
+	height: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px 20px 50px 20px;
+
+
+}
+.form-group p{
+	margin-bottom: 5px;
+}
+.form-contacto {
+	background-color: rgba(0,0,0,0.15);
+	height: 600px;
+}
+.contacto {
+	height: 500px;
+}
+.title-form{
+	position: relative;
+	top: -20%;
+	left: 0%;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #000;
+	padding: 20px 0px 20px 0px;
+}
+.btn-registro {
+	float: right;
+	color: #fff;
+	border-radius: 20px;
+	background-color: #000;
+	width: 30%;
+	margin: 20px 0px;
+}
+.container-asesoria {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.text-asesoria{
+	padding-top: 20px;
+	height: 100%;
+	width: 60%;
+}
+.text-asesoria p{
+	padding: 0 80px;
+}
+.btn-asesoria {
+	margin-left: 80px;
+	color: #000;
+	background-color: orange;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.btn-leer {
+	color: #000;
+	background-color: rgba(0,0,0,0.15);
+	border-radius: 20px;
+}
+.card-img {
+	height: 400px;
+}
+.title-blog {
+	font-size: 1.6rem;
+	color: #000;
+}
+.text-blog {
+	font-size: 1.1rem;	
+}
+.name-blog {
+	font-weight: bold;
+	color: orange;
+}
+.foot-blog {
+	font-size: 1.1rem;
+	color: rgba(0,0,0,0.5);
+}
+.card-block2 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem 1.25rem 1.25rem 0;
+}
+.form-r {
+	border-radius: 20px;
+}
+.badge-r {
+	float: right;
+}
+
+.item-cat {
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.btn-cat {
+	width: 100%;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #000;
+	border-radius: 20px;
+}
+.lista-mes {
+	margin-top: 10px;
+	list-style: none;
+}
+.page-link {
+	border: none;
+	color: rgba(0,0,0,0.7);
+}
+#selected {
+	background-color: #000;
+	font-weight: bold;
+	color: #fff;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: rgba(0,0,0,0.5);
+    content: "|";
+}
+.breadcrumb {
+	background-color: #fff;
+	width: 80%;
+	margin: 0 auto;
+}
+.breadcrumb a{
+	color: rgba(0,0,0,0.9);
+	font-size: 0.7rem;
+}
+.breadcrumb-item .fa {
+	font-size: 1rem;
+}
+.ficha {
+	background-color: #fff;
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0px;
+
+}
+.ref {
+	float: right;
+	font-size: 0.6rem;
+}
+.price {
+	font-size: 1.5rem;
+	padding-right: 20px;
+}
+.colores-txt {
+	float: right;
+}
+.cuadros{
+	height: 20px;
+	width: 25px;
+	display: inline-block;
+	border-radius: 2px; 
+}
+.btn-comprar {
+	margin: 0 auto;
+	color: #000;
+	background-color: orange;
+	border-radius: 20px;
+	font-size: 0.8rem;
+}
+.btn-añadir {
+	margin: 0 auto;
+	color: #fff;
+	background-color: #000;
+	border-radius: 20px;
+	font-size: 0.8rem;
+}
+.fa-list {
+	font-size: 1rem;
+}
+.btn-añadir .fa-cart-plus {
+	font-size: 1.2rem;
+}
+.des-ficha {
+	font-size: 0.75rem;
+	padding-top: 20px;
+}
+.ficha-title {
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.space {
+	padding: 20px 0px;
+}
+.tags {
+	position: absolute;
+	z-index: 1;
+	right: 10%;
+	background-color: #000;
+	color: #fff;
+	padding: 2px;
+	font-size: 0.8rem;
+}
+/*Extra Small devices (portrait phones, less than 576px)*/
+.distribuidor {
+	height: 142px;
+    background-image: url("../../images/banners/extra_small/banner_distribuidor_xs.png");
+}
+.paypal {
+	height: 125px;
+	background-image: url("../../images/banners/extra_small/banner_paypal_xs.png");
+}
+.citas {
+	height: 75px;
+	background-image: url("../../images/banners/extra_small/mision_vision_xs.png");
+}
+.nosotros {
+	height: 174px;
+    background-image: url("../../images/banners/extra_small/portada_nosotros_xs.png");
+}
+.mision-vision {
+	height: 174px;
+	background-image: url("../../images/banners/extra_small/mision_vision_xs.png");
+}
+.servicios {
+	height: 174px;
+	background-image: url("../../images/banners/extra_small/portada_servicios_xs.png");
+}
+.asesoria {
+	height: 284px;
+	background-image: url("../../images/banners/extra_small/asesoria_comercial_xs.png");
+}
+.tecnico {
+	height: 284px;
+	background-image: url("../../images/banners/extra_small/servicio_tecnico_xs.png");
+}
+.descuento {
+	height: 150px;
+	background-image: url("../../images/banners/extra_small/banner_descuento_xs.png");
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media only screen and (min-width: 576px) { 
+  .distribuidor {
+  	height: 142px;
+    background-image: url("../../images/banners/small/banner_distribuidor_sm.png");
+    }
+    .paypal {
+	height: 125px;
+	background-image: url("../../images/banners/small/banner_paypal_sm.png");
+	}
+	.citas {
+	height: 75px;
+	background-image: url("../../images/banners/small/mision_vision_sm.png");
+	}
+	.nosotros {
+	height: 174px;
+    background-image: url("../../images/banners/small/portada_nosotros_sm.png");
+	}
+	.mision-vision {
+	height: 174px;
+	background-image: url("../../images/banners/small/mision_vision_sm.png");
+	}
+	.servicios {
+	height: 174px;
+	background-image: url("../../images/banners/small/portada_servicios_sm.png");
+	}
+	.asesoria {
+	height: 284px;
+	background-image: url("../../images/banners/small/asesoria_comercial_sm.png");
+	}
+	.tecnico {
+	height: 284px;
+	background-image: url("../../images/banners/small/servicio_tecnico_sm.png");
+	}
+	.descuento {
+	height: 150px;
+	background-image: url("../../images/banners/small/banner_descuento_sm.png");
+	}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+  .distribuidor {
+  		height: 170px;
+        background-image: url("../../images/banners/medium/banner_distribuidor_md.png");
+    }
+    .paypal {
+	height: 125px;
+	background-image: url("../../images/banners/medium/banner_paypal_md.png");
+	}
+	.citas {
+	height: 75px;
+	background-image: url("../../images/banners/medium/mision_vision_md.png");
+	}
+	.nosotros {
+	height: 148px;
+    background-image: url("../../images/banners/medium/portada_nosotros_md.png");
+	}
+	.mision-vision {
+	height: 181px;
+	background-image: url("../../images/banners/medium/mision_vision_md.png");
+	}
+	.servicios {
+	height: 148px;
+	background-image: url("../../images/banners/medium/portada_servicios_md.png");
+	}
+	.asesoria {
+	height: 284px;
+	background-image: url("../../images/banners/medium/asesoria_comercial_md.png");
+	}
+	.tecnico {
+	height: 284px;
+	background-image: url("../../images/banners/medium/servicio_tecnico_md.png");
+	}
+	.descuento {
+	height: 150px;
+	background-image: url("../../images/banners/medium/banner_descuento_md.png");
+	}
+	.navtop {
+	background-color: #000000;
+	padding: 0px 0px;
+	margin-top: 0px;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media only screen and (min-width: 992px) {
+  .distribuidor {
+  		height: 208px;
+        background-image: url("../../images/banners/large/banner_distribuidor_lg.png");
+    }
+    .paypal {
+	height: 125px;
+	background-image: url("../../images/banners/large/banner_paypal_lg.png");
+	}
+	.citas {
+	height: 75px;
+	background-image: url("../../images/banners/large/mision_vision_lg.png");
+	}
+	.nosotros {
+	height: 191px;
+    background-image: url("../../images/banners/large/portada_nosotros_lg.png");
+	}
+	.mision-vision {
+	height: 235px;
+	background-image: url("../../images/banners/large/mision_vision_lg.png");
+	}
+	.mv-txt {
+	padding: 30px 80px 0px 80px;
+	}
+
+	.mv-txt img {
+		display:inline-flex;
+	}
+	.servicios {
+	height: 190px;
+	background-image: url("../../images/banners/large/portada_servicios_lg.png");
+	}
+	.asesoria {
+	height: 284px;
+	background-image: url("../../images/banners/large/asesoria_comercial_lg.png");
+	}
+	.tecnico {
+	height: 284px;
+	background-image: url("../../images/banners/large/servicio_tecnico_lg.png");
+	}
+	.descuento {
+	height: 150px;
+	background-image: url("../../images/banners/large/banner_descuento_lg.png");
+	}
+
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) { 
+  .distribuidor {
+  		height: 243px;
+        background-image: url("../../images/banners/extra_large/banner_distribuidor_xl.png");
+    }
+    .paypal {
+	height: 125px;
+	background-image: url("../../images/banners/extra_large/banner_paypal_xl.png");
+	}
+	.citas {
+	height: 75px;
+	background-image: url("../../images/banners/extra_large/mision_vision_xl.png");
+	}
+	.nosotros {
+	height: 230px;
+    background-image: url("../../images/banners/extra_large/portada_nosotros_xl.png");
+	}
+	.mision-vision {
+	height: 283px;
+	background-image: url("../../images/banners/extra_large/mision_vision_xl.png");
+	}
+	.asesoria {
+	height: 284px;
+	background-image: url("../../images/banners/extra_large/asesoria_comercial_xl.png");
+	}
+	.tecnico {
+	height: 284px;
+	background-image: url("../../images/banners/extra_large/servicio_tecnico_xl.png");
+	}
+	.descuento {
+	height: 150px;
+	background-image: url("../../images/banners/extra_large/banner_descuento_xl.png");
+	}
+}
